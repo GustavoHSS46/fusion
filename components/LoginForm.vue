@@ -28,7 +28,6 @@ const { error } = client.auth.signOut()
 
 function close() {
     errorView.value = false
-    console.log(errorView)
 }
 
 
@@ -45,12 +44,11 @@ const login = async () => {
             isLoading.value = false
             ErrorMessage = user.error.message
             errorView.value = true
-            console.log(ErrorMessage, errorView)
         } else {
             isLoading.value = false
             return navigateTo('/')
         }
-    }, 1000);
+    }, 500);
 
 
 }
