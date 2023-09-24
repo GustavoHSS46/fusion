@@ -47,6 +47,7 @@ const login = async () => {
             errorView.value = true
             console.log(ErrorMessage, errorView)
         } else {
+            isLoading.value = false
             return navigateTo('/')
         }
     }, 1000);

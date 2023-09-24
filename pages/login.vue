@@ -1,6 +1,6 @@
 <template>
     <div class="h-screen w-screen overflow-hidden bg-gray-900 text-gray-50 font-sans flex justify-center items-center">
-        <div class="flex justify-center items-center flex-col w-screen h-screen lg:w-3/4">
+        <div class="flex justify-center items-center flex-col w-screen h-screen lg:w-2/4">
             <div class="overflow-hidden flex justify-center items-center flex-row gap-2 w-full h-1/6">
                 <Icon name="mdi:printer" class="text-7xl"/>
             </div>
